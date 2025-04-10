@@ -11,7 +11,7 @@ This is a **fully functional e-commerce website** built using **PHP**, **CSS**, 
 ![Screenshot (60)](https://github.com/user-attachments/assets/78c68a28-b649-4ea7-b350-4fb177f70b6e)
 ![Screenshot (61)](https://github.com/user-attachments/assets/bd9dccf5-7253-4d5e-906a-06106f2b1539)
 
-## *Features:*
+## **Features:**
 - *User Registration and Login:* Secure user authentication.
 - *Product Catalog:* Browse products by categories.
 - *Shopping Cart Functionality:* Add and manage items for purchase.
@@ -31,19 +31,19 @@ This is a **fully functional e-commerce website** built using **PHP**, **CSS**, 
 
 ### Steps to Set Up Locally Using XAMPP:
 
-1. *Download the Code*  
+1. **Download the Code**  
    - Click the download link given below and download the ZIP file on your computer.
 
-2. *Move the Project to XAMPP Directory*  
+2. **Move the Project to XAMPP Directory**  
    - Copy the extracted folder to your XAMPP htdocs directory (e.g., C:/xampp/htdocs/).
    - Open XAMPP and start APACHE and MYSQL modules.
 
-3. *Import the MySQL Database*  
+3. **Import the MySQL Database**  
    - Open *phpMyAdmin* (http://localhost/phpmyadmin) in your browser.
    - Create a new database (e.g., shop_db). #Keep the name same as the database name given in the code.
    - Import the included SQL file (shop_db.sql) into this new database.
 
-4. *Configure the Database Connection*  
+4. **Configure the Database Connection**  
    - Open the project folder and navigate to the file where the database connection is set (e.g., config.php or db_connection.php).
    - Update the database credentials if necessary:
      php
@@ -53,7 +53,7 @@ This is a **fully functional e-commerce website** built using **PHP**, **CSS**, 
      $dbname = 'shop_db';
      
 
-5. *Run the Project*  
+5. **Run the Project**  
    - Open your browser and visit http://localhost/your-folder-name to access the website.
 
 
